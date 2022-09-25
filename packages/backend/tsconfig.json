@@ -1,0 +1,15 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "target": "es2016",
+    "module": "commonjs",
+
+    // disable because of I want to use `import * as`
+    "esModuleInterop": true,
+
+    // Build option
+    "rootDir": "./src",
+    "outDir": "./dist",
+  },
+  "include": ["./src/**/*.ts"]
+}
