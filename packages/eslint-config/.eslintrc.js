@@ -4,4 +4,5 @@ module.exports = {
     node: true,
   },
   extends: ['@portfolio/eslint-config'],
+  plugins: ['@typescript-eslint'],
 };
