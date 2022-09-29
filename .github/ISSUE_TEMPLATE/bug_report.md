@@ -1,5 +1,5 @@
 ---
-name: '\U0001F3DABug report'
+name: "\U0001F3DABug report"
 about: Create a report to help us improve
 title: ''
 labels: ''
